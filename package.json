@@ -4,7 +4,7 @@
   "description": "my shop",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -u bdd -R spec -t 500 --recursive"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/viktordanch/my_shop/issues"
   },
-  "homepage": "https://github.com/viktordanch/my_shop"
+  "homepage": "https://github.com/viktordanch/my_shop",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
 }
