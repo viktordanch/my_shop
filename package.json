@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/viktordanch/my_shop",
   "devDependencies": {
-    "grunt": "^0.4.5"
+    "grunt": "~0.4.5"
   }
 }
