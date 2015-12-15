@@ -6,6 +6,9 @@
   "scripts": {
     "test": "mocha -u bdd -R spec -t 500 --recursive"
   },
+  "engines" : {
+    "npm" : "~3.5.2"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/viktordanch/my_shop.git"
