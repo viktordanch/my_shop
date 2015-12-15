@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/viktordanch/my_shop",
   "devDependencies": {
-    "grunt": "~0.4.5"
+    "chai": "^3.4.1",
+    "grunt": "~0.4.5",
+    "mocha": "^2.3.4"
   }
 }
